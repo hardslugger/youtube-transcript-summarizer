@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "text_file_content"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": " You are a Youtube Summary Generator. Below is the transcript of the Youtube video. Summarize it.\n    Transcript - \n    {text_file_content}\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
