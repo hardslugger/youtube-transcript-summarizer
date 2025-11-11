@@ -29,7 +29,7 @@ if video_link:
             transcript =generate_transcript.fetch(video_id)
             text_formatter = TextFormatter()
             text_formatted = text_formatter.format_transcript(transcript)
-            with open('firstpost.txt', 'w', encoding='utf-8') as txt_file:
+            with open('transcript.txt', 'w', encoding='utf-8') as txt_file:
                 txt_file.write(text_formatted)
             transcript_String = ""
             with open('firstpost.txt', 'r') as file:
@@ -45,6 +45,7 @@ if video_link:
 
 else:
     st.info("👆 Paste a valid YouTube link above to begin.")
+
 
 
 
